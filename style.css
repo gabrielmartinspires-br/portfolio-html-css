@@ -4,11 +4,16 @@ header {
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: black;
+    color: #f6f6f6;
 }
 
 h1 {
-    color: #333333;
+    color: #f6f6f6;
+}
+
+strong {
+    color: dodgerblue;
 }
 
 p {
