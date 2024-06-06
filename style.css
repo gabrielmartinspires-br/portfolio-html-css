@@ -4,7 +4,7 @@ header {
 }
 
 body {
-    background-color: black;
+    background-color: #000000;
     color: #f6f6f6;
 }
 
@@ -13,7 +13,7 @@ h1 {
 }
 
 strong {
-    color: dodgerblue;
+    color: #22d4fd;
 }
 
 p {
