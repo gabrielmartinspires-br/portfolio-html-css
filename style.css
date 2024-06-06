@@ -20,6 +20,10 @@ button {
     color: white;
 }
 
+a {
+    color: dodgerblue;
+}
+
 footer {
     background-color: gray;
     color: white;
