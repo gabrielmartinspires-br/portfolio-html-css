@@ -12,10 +12,3 @@ body {
     color: #22d4fd;
 }
 
-.texto-destaque {
-    color: #f6f6f6;
-    margin: 10px;
-    border: 2px solid black;
-    padding: 5px;
-    content: 0;
-}
