@@ -8,17 +8,14 @@ body {
     color: #f6f6f6;
 }
 
-.titulo-blog {
-    color: #f6f6f6;
-}
 .titulo-destaque {
     color: #22d4fd;
 }
 
 .texto-destaque {
     color: #f6f6f6;
-    margin: 0;
-    border: 0;
-    padding: 0;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
     content: 0;
 }
