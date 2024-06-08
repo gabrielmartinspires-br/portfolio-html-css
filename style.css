@@ -8,6 +8,13 @@ body {
     color: #f6f6f6;
 }
 
+.titulo-blog {
+    color: #f6f6f6;
+}
 .titulo-destaque {
     color: #22d4fd;
+}
+
+.texto-destaque {
+    color: #f6f6f6;
 }
