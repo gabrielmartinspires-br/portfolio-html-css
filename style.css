@@ -12,9 +12,13 @@ body {
     color: #f6f6f6;
 }
 .titulo-destaque {
-    color: #22d4fd;
+    color: #FF5733;
 }
 
 .texto-destaque {
     color: #f6f6f6;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    content: 0;
 }
