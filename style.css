@@ -18,7 +18,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 13%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -41,9 +43,21 @@ body {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 .apresentacao__links__link {
-    
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
 }
