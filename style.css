@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 32px;
 }
 
 .apresentacao__links__link {
