@@ -96,3 +96,27 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.sobre-mim__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 3% 0% 1% 0%;
+    font-family: "montserrat", sans-serif;
+}
+
+.sobre-mim__subtitulo {
+    display: flex;
+    justify-content: center;
+    padding: 1% 0% 1% 0%;
+    font-family: "montserrat", sans-serif;
+}
+
+.sobre-mim__descricao {
+    display: flex;
+    justify-content: center;
+    padding: 5% 15%;
+}
+
+.sobre-mim__texto {
+    font-family: "montserrat", sans-serif;
+}
