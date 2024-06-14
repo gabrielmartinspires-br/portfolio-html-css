@@ -128,6 +128,15 @@ body {
     font-size: 20px
 }
 
+.sobre-mim__texto__link {
+    text-decoration: none;
+    font-style: italic;
+    color: #F6F6F6;
+}
+.sobre-mim__texto__link:hover {
+    color: #22D4FD;
+}
+
 .apresentacao2 {
     flex-direction: column;
 }
