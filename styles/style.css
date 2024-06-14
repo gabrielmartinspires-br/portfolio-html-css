@@ -87,6 +87,11 @@ body {
     background-color: #272727;
 }
 
+.perfil {
+    width: 600px;
+    border-radius: 5px;
+}
+
 .rodape {
     color: #000000;
     background-color: #22D4FD;
@@ -114,9 +119,19 @@ body {
 .sobre-mim__descricao {
     display: flex;
     justify-content: center;
-    padding: 5% 15%;
+    padding: 3% 15%;
+    gap: 32px;
 }
 
 .sobre-mim__texto {
     font-family: "montserrat", sans-serif;
+    font-size: 20px
+}
+
+.apresentacao2 {
+    flex-direction: column;
+}
+.perfil2 {
+    width: 450px;
+    border-radius: 5px;
 }
