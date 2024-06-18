@@ -45,6 +45,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px
+;
 }
 .apresentacao__conteudo {
     width: 50%;
@@ -83,7 +85,7 @@ body {
 .apresentacao__links__navegacao {
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
-    width: 378px;
+    width: 50%;
     text-align: center;   
     font-size: 1.5rem;
     font-weight: 600;
@@ -93,7 +95,7 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
@@ -153,4 +155,10 @@ body {
 .perfil2 {
     width: 50%;
     border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
