@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #371E30;
-    --cor-secundaria: #F59CA9;
-    --cor-terciaria: #DF57BC;
-    --cor-hover: #F6828C;
+    --cor-primaria: #351E29;
+    --cor-secundaria: #C8E9A0;
+    --cor-terciaria: #6DD3CE;
+    --cor-hover: #A13D63;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: "montserrat", sans-serif;
