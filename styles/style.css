@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: "montserrat", sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +19,8 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -25,7 +36,7 @@ body {
     font-family: "montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
@@ -48,7 +59,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -71,7 +82,7 @@ body {
 }
 .apresentacao__links__link {
     /* background-color: #22D4FD; */
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     width: 378px;
     text-align: center;   
@@ -79,12 +90,12 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .perfil {
@@ -93,8 +104,8 @@ body {
 }
 
 .rodape {
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
     font-family: "montserrat", sans-serif;
@@ -131,10 +142,10 @@ body {
 .sobre-mim__texto__link {
     text-decoration: none;
     font-style: italic;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
 }
 .sobre-mim__texto__link:hover {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao2 {
