@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #351E29;
-    --cor-secundaria: #C8E9A0;
-    --cor-terciaria: #6DD3CE;
-    --cor-hover: #A13D63;
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #252525;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: "montserrat", sans-serif;
@@ -34,7 +34,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -47,14 +47,14 @@ body {
     justify-content: space-between;
 }
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -78,15 +78,14 @@ body {
     font-family: var(--fonte-primaria);
     padding: 5%;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-.apresentacao__links__link {
-    /* background-color: #22D4FD; */
+.apresentacao__links__navegacao {
     border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
     width: 378px;
     text-align: center;   
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -99,7 +98,7 @@ body {
 }
 
 .perfil {
-    width: 600px;
+    width: 50%;
     border-radius: 5px;
 }
 
@@ -109,7 +108,7 @@ body {
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -136,7 +135,7 @@ body {
 
 .sobre-mim__texto {
     font-family: var(--fonte-secundaria);
-    font-size: 20px
+    font-size: 1.25rem;
 }
 
 .sobre-mim__texto__link {
@@ -152,6 +151,6 @@ body {
     flex-direction: column;
 }
 .perfil2 {
-    width: 450px;
+    width: 50%;
     border-radius: 5px;
 }
