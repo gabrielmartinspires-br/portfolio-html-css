@@ -138,8 +138,7 @@ body {
 .sobre-mim__texto {
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
-    text-align: 
-}
+} 
 
 .sobre-mim__texto__link {
     text-decoration: none;
