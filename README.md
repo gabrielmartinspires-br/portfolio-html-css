@@ -18,6 +18,10 @@ HTML: O HTML é o componente base da web. Isso quer dizer que ele permite a cons
 
 CSS: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica, portanto indica quando os botões são pressionados por mouse ou teclado.
 
+📚 Mais informações do curso
+
+Busque na plataforma da Alura o curso HTML e CSS
+
 INSTRUTORES:
 
 Guilherme Lima e Rafaella Ballerini
