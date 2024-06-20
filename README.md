@@ -1,4 +1,4 @@
-# Portfolio html e css
+# Portfolio HTML5 e CSS3
  
 Curso de HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags.
 
