@@ -104,6 +104,12 @@ body {
     border-radius: 5px;
 }
 
+.perfil2 {
+    align-self: self-start;
+    width: 50%;
+    border-radius: 5px;
+}
+
 .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
