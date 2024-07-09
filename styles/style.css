@@ -155,6 +155,7 @@ body {
     color: var(--cor-terciaria);
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
@@ -173,4 +174,17 @@ body {
         width: auto;
     }
     
+=======
+.apresentacao2 {
+    flex-direction: column;
+}
+.perfil2 {
+    width: 450px;
+    border-radius: 5px;
+}
+
+.perfil3 {
+    width: 250px;
+    border-radius: 5px;
+>>>>>>> Stashed changes
 }
